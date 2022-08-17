@@ -270,6 +270,9 @@
                                 <rect key="frame" x="112" y="707" width="216" height="148"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" image="cloud.png"/>
+                                <connections>
+                                    <action selector="generateBtn:" destination="rYL-EG-5NC" eventType="touchUpInside" id="PnJ-Xd-zWx"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Generate" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kI5-EP-7Qq">
                                 <rect key="frame" x="159" y="770" width="97" height="23"/>
@@ -283,6 +286,9 @@
                         <color key="backgroundColor" red="0.72328418490000002" green="0.87396830319999996" blue="0.89412313700000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
                     <navigationItem key="navigationItem" id="ZbW-bh-zXd"/>
+                    <connections>
+                        <outlet property="phraseLabel" destination="Jrs-rV-M65" id="TVR-1R-bal"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gRp-vC-J5j" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
