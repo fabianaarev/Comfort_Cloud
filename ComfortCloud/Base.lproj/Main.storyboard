@@ -56,6 +56,56 @@
                                 <rect key="frame" x="-25" y="-10" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pr3-f5-BxU">
+                                <rect key="frame" x="129" y="113" width="156" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="30"/>
+                                <color key="textColor" red="0.0145676937" green="0.028268994759999999" blue="0.013465878549999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Comfort Cloud" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2ZD-VA-YJF">
+                                <rect key="frame" x="87" y="156" width="240" height="43"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="37"/>
+                                <color key="textColor" red="0.0145676937" green="0.028268994759999999" blue="0.013465878549999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nA6-ls-0nn">
+                                <rect key="frame" x="54" y="324" width="307" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.50089704989999995" green="0.66314208509999995" blue="0.53059798479999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="20"/>
+                                <state key="normal" title="Words of Affirmation">
+                                    <color key="titleColor" red="0.72237622739999996" green="0.87567895650000005" blue="0.89487117530000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="rYL-EG-5NC" kind="show" id="XXb-Kb-Fkv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vDM-70-3Fs">
+                                <rect key="frame" x="54" y="638" width="307" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.50089704989999995" green="0.66314208509999995" blue="0.53059798479999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="20"/>
+                                <state key="normal" title="Breathing">
+                                    <color key="titleColor" red="0.72237622739999996" green="0.87567895650000005" blue="0.89487117530000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="WzD-Ml-jh9" kind="show" id="dCv-Mc-FKq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GlQ-IM-Z44">
+                                <rect key="frame" x="54" y="471" width="307" height="63"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.50089704989999995" green="0.66314208509999995" blue="0.53059798479999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="CourierNewPS-BoldMT" family="Courier New" pointSize="20"/>
+                                <state key="normal" title="Cheer Up!">
+                                    <color key="titleColor" red="0.72237622739999996" green="0.87567895650000005" blue="0.89487117530000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="p4l-uD-6Yv" kind="show" id="8VV-yN-YaO"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.73824829000000003" green="0.87831619039999997" blue="0.89487117530000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -70,7 +120,7 @@
             <objects>
                 <viewController id="p4l-uD-6Yv" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sXf-8r-HM7">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9dB-rh-ohK">
@@ -120,6 +170,7 @@
                         <viewLayoutGuide key="safeArea" id="TFc-gb-yct"/>
                         <color key="backgroundColor" red="0.72237622739999996" green="0.87567895650000005" blue="0.89487117530000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <navigationItem key="navigationItem" id="XYS-ZL-pEg"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eja-Pk-ZlY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -130,7 +181,7 @@
             <objects>
                 <viewController id="WzD-Ml-jh9" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RSy-pg-zUu">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Breathe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kj4-D1-Vo7">
@@ -144,6 +195,7 @@
                         <viewLayoutGuide key="safeArea" id="TYu-DW-Ppm"/>
                         <color key="backgroundColor" red="0.72237622739999996" green="0.87567895650000005" blue="0.89487117530000004" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <navigationItem key="navigationItem" id="nwb-Qp-0Ft"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="deh-OR-whk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -154,7 +206,7 @@
             <objects>
                 <viewController id="rYL-EG-5NC" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZHl-bS-FbT">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.69999999999999996" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="cloud.png" translatesAutoresizingMaskIntoConstraints="NO" id="mHV-98-aRk">
@@ -225,6 +277,7 @@
                         <viewLayoutGuide key="safeArea" id="dIg-SP-dM8"/>
                         <color key="backgroundColor" red="0.72328418490000002" green="0.87396830319999996" blue="0.89412313700000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </view>
+                    <navigationItem key="navigationItem" id="ZbW-bh-zXd"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gRp-vC-J5j" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
