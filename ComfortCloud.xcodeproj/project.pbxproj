@@ -21,7 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6D9249EE28AD383A001F6B81 /* WordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsViewController.swift; sourceTree = "<group>"; };
+		6D9249EE28AD383A001F6B81 /* WordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.xcfilelist; };
 		6D9249F028AD3848001F6B81 /* JokesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesViewController.swift; sourceTree = "<group>"; };
 		6D9249F228AD3853001F6B81 /* BreatheViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreatheViewController.swift; sourceTree = "<group>"; };
 		6D924A3028AD3E0A001F6B81 /* cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cloud.png; path = ../../../cloud.png; sourceTree = "<group>"; };
@@ -50,9 +50,6 @@
 		7DE0369528AD348200479C7F = {
 			isa = PBXGroup;
 			children = (
-				6D9249F228AD3853001F6B81 /* BreatheViewController.swift */,
-				6D9249EE28AD383A001F6B81 /* WordsViewController.swift */,
-				6D9249F028AD3848001F6B81 /* JokesViewController.swift */,
 				7DE036A028AD348300479C7F /* ComfortCloud */,
 				7DE0369F28AD348300479C7F /* Products */,
 			);
@@ -69,6 +66,9 @@
 		7DE036A028AD348300479C7F /* ComfortCloud */ = {
 			isa = PBXGroup;
 			children = (
+				6D9249F228AD3853001F6B81 /* BreatheViewController.swift */,
+				6D9249EE28AD383A001F6B81 /* WordsViewController.swift */,
+				6D9249F028AD3848001F6B81 /* JokesViewController.swift */,
 				6D924A3028AD3E0A001F6B81 /* cloud.png */,
 				7DE036A128AD348300479C7F /* AppDelegate.swift */,
 				7DE036A328AD348300479C7F /* SceneDelegate.swift */,
