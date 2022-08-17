@@ -10,6 +10,7 @@
 		6D9249EF28AD383A001F6B81 /* WordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9249EE28AD383A001F6B81 /* WordsViewController.swift */; };
 		6D9249F128AD3848001F6B81 /* JokesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9249F028AD3848001F6B81 /* JokesViewController.swift */; };
 		6D9249F328AD3853001F6B81 /* BreatheViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D9249F228AD3853001F6B81 /* BreatheViewController.swift */; };
+		6D924A3128AD3E0A001F6B81 /* cloud.png in Resources */ = {isa = PBXBuildFile; fileRef = 6D924A3028AD3E0A001F6B81 /* cloud.png */; };
 		7DE036A228AD348300479C7F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE036A128AD348300479C7F /* AppDelegate.swift */; };
 		7DE036A428AD348300479C7F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE036A328AD348300479C7F /* SceneDelegate.swift */; };
 		7DE036A628AD348300479C7F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE036A528AD348300479C7F /* ViewController.swift */; };
@@ -23,6 +24,7 @@
 		6D9249EE28AD383A001F6B81 /* WordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsViewController.swift; sourceTree = "<group>"; };
 		6D9249F028AD3848001F6B81 /* JokesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokesViewController.swift; sourceTree = "<group>"; };
 		6D9249F228AD3853001F6B81 /* BreatheViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreatheViewController.swift; sourceTree = "<group>"; };
+		6D924A3028AD3E0A001F6B81 /* cloud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cloud.png; path = ../../../cloud.png; sourceTree = "<group>"; };
 		7DE0369E28AD348300479C7F /* ComfortCloud.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComfortCloud.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DE036A128AD348300479C7F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DE036A328AD348300479C7F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 		7DE036A028AD348300479C7F /* ComfortCloud */ = {
 			isa = PBXGroup;
 			children = (
+				6D924A3028AD3E0A001F6B81 /* cloud.png */,
 				7DE036A128AD348300479C7F /* AppDelegate.swift */,
 				7DE036A328AD348300479C7F /* SceneDelegate.swift */,
 				7DE036A528AD348300479C7F /* ViewController.swift */,
@@ -139,6 +142,7 @@
 				7DE036B128AD348400479C7F /* LaunchScreen.storyboard in Resources */,
 				7DE036AE28AD348400479C7F /* Assets.xcassets in Resources */,
 				7DE036A928AD348300479C7F /* Main.storyboard in Resources */,
+				6D924A3128AD3E0A001F6B81 /* cloud.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
