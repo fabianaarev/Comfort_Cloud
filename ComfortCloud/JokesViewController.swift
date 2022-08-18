@@ -18,7 +18,7 @@ class JokesViewController: UIViewController {
                                  "Do they allow loud laughing in Hawaii? Or is it just a low ha?",
                                  " Why do ghosts like to ride in elevators? It lifts their spirits!",
                                  "Did you know that alligators can grow up to 15 feet? Well, I didn’t they usually only have 4!",
-                                 "What do you get when you cross a snowman and a vampire? Frostbite",
+                                 "What do you get when you cross a snowman and a vampire? Frostbite"]
                                  
     
 
@@ -33,8 +33,6 @@ class JokesViewController: UIViewController {
     @IBAction func button(_ sender: Any) {
         labelj.text = jokes[Int.random(in: 1..<jokes.count)]
     }
-    
-
     /*
     // MARK: - Navigation
 
