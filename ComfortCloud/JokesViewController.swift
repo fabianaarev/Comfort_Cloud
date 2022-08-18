@@ -8,6 +8,23 @@
 import UIKit
 
 class JokesViewController: UIViewController {
+    
+    @IBOutlet weak var jokey: UILabel!
+    
+    @IBAction func button(_ sender: Any) {
+        
+        print("Why did the golfer bring two pairs of pants? In case he got a hole in one.")
+        
+        jokey.text = "Why did the golfer bring two pairs of pants? In case he got a hole in one."
+    }
+    
+    
+    
+
+    
+    
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
